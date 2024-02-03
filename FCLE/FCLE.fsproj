@@ -4,6 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Parser\Tokenizer.fs" />
+    <Compile Include="Parser\Lexer.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 </Project>
