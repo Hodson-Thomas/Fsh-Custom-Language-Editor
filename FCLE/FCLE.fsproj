@@ -4,8 +4,13 @@
     <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Errors\Errors.fs" />
+    <Compile Include="Utils\Utils.fs" />
     <Compile Include="Parser\Tokenizer.fs" />
     <Compile Include="Parser\Lexer.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data.Json" Version="1.0.0" />
   </ItemGroup>
 </Project>
